@@ -208,5 +208,6 @@ class Tugma(QPushButton):
         self.clicked.connect(fun)
 app=QApplication(sys.argv)
 oyna=Window()
+oyna.setFixedSize(800,800)
 oyna.show()
 sys.exit(app.exec_())
